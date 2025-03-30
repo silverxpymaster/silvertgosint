@@ -1,4 +1,4 @@
-# Silvertgosint
+# Silvertgosint - Telegram OSINT Tool
 
 This tool connects to your Telegram account using the API ID and API hash and retrieves all messages of the target user from the groups you are in, saving them to a TXT file and additionally storing them in a database.  
 
