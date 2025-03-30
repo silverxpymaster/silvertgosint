@@ -9,20 +9,14 @@ Additionally, if the target group is publicly accessible, various details such a
 **Useful Note:** You can add the account linked to this tool to hundreds of groups and collect the target’s messages from all those groups.
 
 ## Features
-- Collect messages from Telegram groups and users
-- Store messages in a SQLite database
-- Retrieve and save group information
-- Download media files from groups
-- Generate message statistics for specific users
+```
+- All groups the target user is in and all messages they have sent in those groups are collected.  
+- Statistics on how many messages the target has sent in each group are gathered (this allows you to see which group they are most active in).  
+- All members of the target group (in ID, name, username, and number format) are collected and saved to a TXT file.  
+- All media from the target group is downloaded.
+```
 
 ## Installation
-
-### Requirements
-Ensure you have Python installed along with the required dependencies. Install them using:
-
-```bash
-pip install -r requirements.txt
-```
 
 ### Setup
 1. Obtain API credentials from [my.telegram.org](https://my.telegram.org):
@@ -36,17 +30,14 @@ pip install -r requirements.txt
    ```bash
    cd telegram-osint-tool
    ```
+4. Download the required libraries
+   ```bash
+   pip install -r requirements.txt
+   ```
 4. Run the tool:
    ```bash
    python main.py
    ```
-
-## Usage
-
-1. **Collect User Messages:** Enter the target Telegram username or ID to retrieve messages from groups.
-2. **Get Group Info:** Provide a Telegram group link to extract group details and member information.
-3. **Generate Message Statistics:** Analyze a user's activity across multiple groups.
-4. **Download Group Media:** Retrieve all images and videos from a specified Telegram group.
 
 ## Notes
 - This tool requires authentication with Telegram using a phone number and an active session.
