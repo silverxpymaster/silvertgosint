@@ -24,11 +24,11 @@ Additionally, if the target group is publicly accessible, various details such a
    - Create a new app and note the `API ID` and `API Hash`.
 2. Clone this repository:
    ```bash
-   git clone https://github.com/your-repo/telegram-osint-tool.git
+   git clone https://github.com/silverxpymaster/silvertgosint.git
    ```
 3. Navigate into the project folder:
    ```bash
-   cd telegram-osint-tool
+   cd silvertgosint
    ```
 4. Download the required libraries
    ```bash
@@ -36,7 +36,7 @@ Additionally, if the target group is publicly accessible, various details such a
    ```
 4. Run the tool:
    ```bash
-   python main.py
+   python silvertgosint.py
    ```
 
 ## Notes
@@ -46,7 +46,7 @@ Additionally, if the target group is publicly accessible, various details such a
 ## Author
 **SilverX**  
 [YouTube Channel](https://youtube.com/@silverxcyber)  
-[Telegram](https://t.me/silverxvip)
+[Telegram Channel](https://t.me/silverxvip)
 
 ---
 **Disclaimer:** This tool is for educational and research purposes only. Use it responsibly and ensure compliance with Telegram's terms of service.
