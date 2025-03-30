@@ -8,6 +8,8 @@ Additionally, if the target group is publicly accessible, various details such a
 
 **Useful Note:** You can add the account linked to this tool to hundreds of groups and collect the target’s messages from all those groups.
 
+https://github.com/silverxpymaster/silvertgosint/blob/main/Screenshot.png?raw=true
+
 ## Features
 ```
 - All groups the target user is in and all messages they have sent in those groups are collected.  
