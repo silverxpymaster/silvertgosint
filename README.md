@@ -40,6 +40,10 @@ Additionally, if the target group is publicly accessible, various details such a
    ```bash
    python silvertgosint.py
    ```
+## YouTube Tutorial
+[![Video Title](https://img.youtube.com/vi/U9mA-wkfxY4/0.jpg)](https://www.youtube.com/watch?v=U9mA-wkfxY4)
+
+Click photo and watch youtube tutorial
 
 ## Notes
 - This tool requires authentication with Telegram using a phone number and an active session.
